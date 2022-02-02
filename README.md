@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# MEMEIT
+![alt text](https://github.com/venishpatidar/memeit/blob/master/memit.PNG)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## PROBLEM STATMENT
+Problem Assignment ( Frontend )
+Objective: To build a meme generator that allows users to insert custom text on meme images
+fetched automatically.
+Project Overview
+Do you like memes? Most people do, so if yes, the idea of developing a meme generator would
+surely get you going. You can build a simple meme generator that instantly allows users to
+create memes in React.
 
-## Available Scripts
+The idea here is to use an API to fetch random meme images and then allow users to place
+custom text at the top and bottom of the image.
 
-In the project directory, you can run:
+Below is the basic idea:
 
-### `npm start`
+You need to add two different input fields in your meme generator, i.e.:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1st one is for the text at the top and the
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2nd one is for the text at the bottom of the image.
 
-### `npm test`
+You can also create a database of your own to store meme images and fetch images from the
+database.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Also, you can enhance the functionality of the meme generator by allowing users to create and
+log in to their accounts, save memes, and share them on different social media platforms.
